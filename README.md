@@ -10,10 +10,10 @@ The architecture includes:
 - Convolutional encoder with downsampling
 - Latent space with Gaussian parameterization
 - Transposed convolutional decoder
-- Residual blocks for improved reconstruction quality :contentReference[oaicite:0]{index=0}
+- Residual blocks for improved reconstruction quality
 
 ## Data
-The dataset consists of Pokémon fusion images used for unsupervised representation learning. Labels are provided as type combinations (e.g., "fire,water") for evaluation tasks :contentReference[oaicite:1]{index=1}.
+The dataset consists of Pokémon fusion images used for unsupervised representation learning. Labels are provided as type combinations (e.g., "fire,water") for evaluation tasks.
 
 ## Training Objective
 The model is trained to:
